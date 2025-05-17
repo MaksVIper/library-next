@@ -76,7 +76,7 @@ export const ReadListPopup = () => {
                       {book.title}
                     </h3>
 
-                    {book.authors?.length > 0 && (
+                    {Array.isArray(book.authors) && book.authors.length > 0 && (
                       <p className="text-sm text-gray-600 mb-2 flex items-center">
                         <span className="inline-block w-4 h-4 bg-blue-100 rounded-full mr-2 flex items-center justify-center">
                           <svg className="w-3 h-3 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">

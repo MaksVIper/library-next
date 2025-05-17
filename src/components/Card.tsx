@@ -3,7 +3,6 @@ import React from 'react';
 import {ISearchResult} from "@/interfaces/BookInterface";
 import {useBookStore} from "@/store/BookStore";
 import {CheckIcon} from "@heroicons/react/20/solid";
-
 interface ICardProps {
   book: ISearchResult;
 }

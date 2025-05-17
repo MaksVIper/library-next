@@ -1,6 +1,5 @@
 "use client"
 import {useState, KeyboardEvent} from 'react';
-import {useBookStore} from '@/store/BookStore';
 import {ISearchResult} from "@/interfaces/BookInterface";
 import Card from "@/components/Card";
 import {Spinner} from "@/components/Spinner";

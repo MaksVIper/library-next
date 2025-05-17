@@ -1,4 +1,3 @@
-
 import "./globals.css"
 import {SearchComponent} from "@/components/SearchComponent";
 
